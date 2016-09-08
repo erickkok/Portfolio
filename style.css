@@ -1,29 +1,51 @@
-body
-{
-	background-image: url("img2.jpg");
-	margin-left: 500px;
-	margin-right: 500px;
+@font-face{
+	font-family: "alien";
+	src: url("alien.ttf")
+}
+@font-face{
+	font-family: "kaviaar";
+	src: url("kaviaar.ttf")
 }
 
-nav{
+head{
 	font-family: 'Varela Round', sans-serif;
+}
+
+body{
+	font-family: "kaviaar";
+	font-size: 17px;
+	background-image: url("background 1.jpg");
+	background-size: auto;
+	margin-top: 25px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+}
+
+img.me{width: 200px}
+
+nav{
+	background-color: black;
+	margin-bottom: 0px;
+	font-family: "alien"
 	font-weight: bold;
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	font-size: 12px;
+	font-size: 16px;
+	text-align: center;
 }
 
 div{
-	background-color: white;
+	background-color: rgba(255,255,255,0.8);
+	margin-top: 0px;
 	margin-left: auto;
 	margin-right: auto;
 	width: 960px;
-	padding-left: 10px;
-	padding-right: 10px;
 	padding-top: 20px;
-	padding-bottom: 60px;
-	border-style: double;	
-
+	padding-right: 30px;
+	padding-bottom: 40px;
+	padding-left: 30px;
+	border-style: none;	
 	}
 
 a{
@@ -34,9 +56,13 @@ a{
 }
 
 a:hover{
-	color:black;
-
+	color:grey;
 }
+
+.active{
+	color: grey;
+}
+
 .mail {
 	color: green;
 	text-decoration: none;
@@ -44,21 +70,26 @@ a:hover{
 
 ul{
 	list-style-type: none;
-	margin-left: auto;
-	margin-right: auto;
+	margin:0 auto;
 	padding-top: 20px;
+	padding-right: 20px;
 	padding-bottom: 20px;
-	padding-right: 700px;
-	width: 700px;
+	width: 1000px;
 	border-width:medium;
 	}
 
-
-
+footer{
+	color: white;
+	position: absolute;
+	top: 1000px;
+	left: 800px;
 	}
+
 p.test {
 	word-break: break-all;
 }
 li{
 	display: inline;
+	margin-right: 10px;
+	margin-left: 10px;
 }
