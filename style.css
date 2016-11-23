@@ -74,10 +74,13 @@ ul{
 	}
 
 footer{
+	display: block;
+	bottom: 0px;
+	height: 60px;
 	color: white;
 	position: absolute;
-	top: 1000px;
-	left: 800px;
+	height: auto;
+	width: auto;
 	}
 
 p.test {
