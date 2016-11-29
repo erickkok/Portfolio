@@ -4,7 +4,7 @@
 }
 @font-face{
 	font-family: "kaviaar";
-	src: url("kaviaar.ttf")
+	src: url("../fonts/kaviaar.ttf")
 }
 
 head{
@@ -14,7 +14,7 @@ head{
 body{
 	font-family: "kaviaar";
 	font-size: 17px;
-	background-image: url("background 1.jpg");
+	background-image: url("../pics/background 1.jpg");
 	background-size: auto;
 	margin-top: 25px;
 	margin-right: auto;
@@ -25,6 +25,10 @@ body{
 img.me{width: 200px}
 
 nav{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
 	background-color: black;
 	margin-bottom: 0px;
 	font-family: "alien"
@@ -33,9 +37,10 @@ nav{
 	letter-spacing: 3px;
 	font-size: 16px;
 	text-align: center;
+	z-index: 1000;
 }
 
-div{
+.content{
 	background-color: rgba(255,255,255,0.8);
 	margin-top: 0px;
 	margin-left: auto;
